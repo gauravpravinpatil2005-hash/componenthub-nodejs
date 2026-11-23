@@ -1,0 +1,14 @@
+{
+  "name": "componenthub-nodejs",
+  "version": "1.0.0",
+  "description": "ComponentHub - Electronics Lab Component Request & Validation System (Node.js + Express)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test tests/validators.test.js"
+  },
+  "engines": { "node": ">=18" },
+  "author": "Gaurav Pravin Patil",
+  "license": "ISC",
+  "dependencies": { "express": "^4.19.2" }
+}
